@@ -9,8 +9,8 @@ export type TrainerDB = {
     | "NORMAL"
     | "FIRE"
     | "WATER"
-    | "GRASS"
     | "ELECTRIC"
+    | "GRASS"
     | "ICE"
     | "FIGHTING"
     | "POISON"
@@ -20,10 +20,7 @@ export type TrainerDB = {
     | "BUG"
     | "ROCK"
     | "GHOST"
-    | "DRAGON"
-    | "DARK"
-    | "STEEL"
-    | "FAIRY";
+    | "DRAGON";
   
   export type PokemonDB = {
     _id: string;

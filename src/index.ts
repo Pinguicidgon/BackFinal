@@ -1,5 +1,7 @@
+// Programa resuelto por Raúl Cid González el 18 de diciembre en la clase b005 con Fernando.
+
 import { ApolloServer } from "apollo-server";
-import { connectToMongoDB } from "./db/mongo"
+import { connectToMongoDB } from "./db/mongo";
 import { typeDefs } from "./graphql/schema";
 import { resolvers } from "./graphql/resolvers";
 import { getUserFromToken } from "./auth";
@@ -21,6 +23,4 @@ const start = async () => {
   console.log("GQL sirviendo y de to");
 };
 
-
-
-start().catch(err=>console.error(err));
+start().catch((err) => console.error(err));
